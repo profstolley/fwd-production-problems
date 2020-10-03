@@ -38,32 +38,32 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
   font-family: Georgia, "Times New Roman", Times, Roman, serif;
-  font-size: 19px;
-  line-height: 24px;
-  padding: 24px;
+  font-size: 1.1875em; /* 19px / 24px = 1.1875 */
+  line-height: 1.2631578947em; /* 24px / 19px = 1.2631578947 */
+  padding: 1.2631578947em; /* 24px / 19px = 1.2631578947 */
 }
 h1 {
-  font-size: 48.640px;
-  line-height: 54px;
-  padding-bottom: 18px;
+  font-size: 2.56em; /* 48.640px / 19px = 2.56 */
+  line-height: 1.1101973684em; /* 54px / 48.640 =  1.1101973684 */
+  padding-bottom: 0.3700657895em; /* 18 / 48.640 = 0.3700657895 */
 }
 h2 {
-  font-size: 30.400px;
-  line-height: 36px;
-  padding-top: 12px;
+  font-size: 1.6em; /* 30.400px / 19px = 1.6 */
+  line-height: 1.1842105263em; /* 36px / 30.400 = 1.1842105263 */
+  padding-top: 0.3947368421em; /* 12px / 30.400 = 0.3947368421 */
 }
-p,figure { padding-bottom: 12px; }
+p,figure { padding-bottom: 0.6315789474em; } /* 12px / 19px = 0.6315789474em */
 a { text-decoration: none; } /* No underlines on links */
 img { display: none; } /* Hide the image...there's no actual file anyway */
 h2 + ul {
   font-style: italic;
-  padding-bottom: 12px;
+  padding-bottom: 0.6315789474em; /* 12px / 19px = 0.6315789474em */
 }
 .quick-facts {
   font-style: normal;
   list-style-type: disc;
 }
 footer {
-  font-size: 11.875px;
-  padding: 24px 0;
+  font-size: 0.625em; /* 11.875px / 19px = 0.625 */
+  padding: 2.0210526316em 0; /* 24px / 11.875px = 2.0210526316 */
 }
