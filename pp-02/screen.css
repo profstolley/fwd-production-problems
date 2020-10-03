@@ -60,7 +60,7 @@ h2 + ul {
   padding-bottom: 0.6315789474em; /* 12px / 19px = 0.6315789474em */
 }
 .quick-facts {
-  font-style: normal;
+  font-style: normal; /* Reset the font-style from h2 + ul selector...*/
   list-style-type: disc;
 }
 footer {
