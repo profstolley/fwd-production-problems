@@ -7,3 +7,29 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+
+/*
+  Typographic grid information:
+  - Common system font (Georgia)
+
+  - Base font-size: 19px // 1.1875em
+  - Base line-height: 24px // 1.2631578947em (24px ÷ 19px)
+  - Basic line-height values:
+    * Quarter line: 6px (24px ÷ 4)
+    * Half line: 12px (24px ÷ 2)
+    * Full line: 24px (24px)
+    * Line and a quarter: 30px (24px × 1.25)
+    * Line and a half: 36px (24px × 1.5)
+    * Line and three quarters: 42px (24px × 1.75)
+    * Double line: 48px (24px × 2)
+
+  - Modular scale: 5:8 // 1.6 (Minor Sixth)
+    https://www.modularscale.com/?19&px&1.6
+  - Basic modular scale values:
+    * -2×:   11.875px
+    *  1×:   19.000px
+    *  2×:   30.400px
+    *  3×:   48.640px
+    *  4×:   77.824px
+    *  5×:  124.518px
+*/
